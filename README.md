@@ -1,1 +1,119 @@
 # Divyansh-Sing-Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divyansh Singh Rajput - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+        header {
+            background: #111;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        .section {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .skills span, .contact a {
+            display: inline-block;
+            background: #111;
+            color: white;
+            padding: 6px 12px;
+            margin: 5px 5px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Divyansh Singh Rajput</h1>
+        <p>B.Tech | Computer Science (AI) • Data Analyst • Python • SQL • Machine Learning</p>
+    </header>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I am a passionate AI & Data Science student skilled in Python, SQL, Power BI, and Machine Learning. I love turning raw data into meaningful insights and building impactful projects. Currently working on an AI-based Farmers Disease Diagnostic Portal as my Final Year Project.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Machine Learning</span>
+            <span>Data Analytics</span>
+            <span>Time Series Analysis</span>
+            <span>Stable Diffusion</span>
+            <span>HTML / CSS</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Farmers Disease Diagnostic Portal</strong> – AI-based mobile app for plant disease detection and reporting.</li>
+            <li><strong>Sales Forecasting Model</strong> – Built using Python and time series analysis.</li>
+            <li><strong>Titanic SQL Analysis</strong> – Data insights using SQL queries.</li>
+            <li><strong>Text-to-Image Generator</strong> – Built using Stable Diffusion and React.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Data Science with Python – RCPL</li>
+            <li>SQL Certification – IBM</li>
+            <li>L&T Advanced DSA & System Design Training</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Email: <strong>singhrajputdivyansh45@gmail.com</strong></p>
+        <p>Phone: <strong>9352664887</strong></p>
+        <div class="contact">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Divyansh Singh Rajput | Portfolio
+    </footer>
+</body>
+</html>
